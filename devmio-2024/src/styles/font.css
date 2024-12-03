@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'Marvin Visions Variable';
+	src:
+		url('/fonts/MarvinVisions-Variable.woff2') format('woff2-variations'),
+		url('/fonts/MarvinVisions-Variable.woff') format('woff'),
+		url('/fonts/MarvinVisions-Variable.ttf') format('truetype');
+	font-weight: 20 170;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SA Long Beach';
+	src:
+		url('/fonts/SALongBeach.woff2') format('woff2'),
+		url('/fonts/SALongBeach.woff') format('woff'),
+		url('/fonts/SALongBeach.ttf') format('truetype'),
+		url('/fonts/SALongBeach.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src:
+		url('/fonts/JetBrainsMono-Variable.woff2') format('woff2-variations'),
+		url('/fonts/JetBrainsMono-Variable.woff') format('woff'),
+		url('/fonts/JetBrainsMono-Variable.ttf') format('truetype');
+	font-weight: 100 800;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src:
+		url('/fonts/JetBrainsMono-VariableItalic.woff2') format('woff2-variations'),
+		url('/fonts/JetBrainsMono-VariableItalic.woff') format('woff'),
+		url('/fonts/JetBrainsMono-VariableItalic.ttf') format('truetype');
+	font-weight: 100 800;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Manrope-Variable;
+	src:
+		url('/fonts/Manrope-Variable.woff2') format('woff2-variations'),
+		url('/fonts/Manrope-Variable.woff') format('woff'),
+		url('/fonts/Manrope-Variable.ttf') format('truetype');
+	font-weight: 200 800;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SA Jackson';
+	src:
+		url('/fonts/SAJackson.woff2') format('woff2'),
+		url('/fonts/SAJackson.woff') format('woff'),
+		url('/fonts/SAJackson.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SA Superhero';
+	src:
+		url('/fonts/SASuperhero.woff2') format('woff2'),
+		url('/fonts/SASuperhero.woff') format('woff'),
+		url('/fonts/SASuperhero.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}

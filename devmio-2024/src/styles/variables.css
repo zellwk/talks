@@ -1,0 +1,85 @@
+@theme {
+	--color-main: oklch(98% 0.02 272);
+	--color-light: #a8aab2;
+
+	--color-cPink-500: oklch(62.6% 0.181 11.3);
+
+	--color-cYellow-50: oklch(98.9% 0.05 98.2);
+	--color-cYellow-400: oklch(93.2% 0.2 98.2);
+	--color-cYellow-500: oklch(84.2% 0.167 98.2);
+	--color-cYellow-700: oklch(45.2% 0.167 98.2);
+	--color-cYellow-800: oklch(32.8% 0.06 98.3);
+	--color-cYellow-900: oklch(25.9% 0.044 99.2);
+
+	--color-cLightBlue-50: oklch(91.44% 0.0449 243.12);
+	--color-cLightBlue-500: #38bdf8;
+	--color-cLightBlue-800: oklch(24.81% 0.044 245.63);
+	--color-cLightBlue-900: oklch(22.81% 0.044 245.63);
+
+	--color-cTurquoise-500: oklch(88.3% 0.151 187.5);
+
+	--breakpoint-bp1: 100px;
+	--breakpoint-bp2: 200px;
+	--breakpoint-bp3: 300px;
+	--breakpoint-bp4: 400px;
+	--breakpoint-bp5: 500px;
+	--breakpoint-bp6: 600px;
+	--breakpoint-bp7: 700px;
+	--breakpoint-bp8: 800px;
+	--breakpoint-bp9: 900px;
+	--breakpoint-bp10: 1000px;
+	--breakpoint-bp11: 1100px;
+	--breakpoint-bp12: 1200px;
+	--breakpoint-bp13: 1300px;
+	--breakpoint-bp14: 1400px;
+	--breakpoint-bp15: 1500px;
+	--breakpoint-bp16: 1600px;
+	--breakpoint-bp17: 1700px;
+	--breakpoint-bp18: 1800px;
+	--breakpoint-bp19: 1900px;
+	--breakpoint-bp20: 2000px;
+	--breakpoint-bp1_5: 150px;
+	--breakpoint-bp2_5: 250px;
+	--breakpoint-bp3_5: 350px;
+	--breakpoint-bp4_5: 450px;
+	--breakpoint-bp5_5: 550px;
+	--breakpoint-bp6_5: 650px;
+	--breakpoint-bp7_5: 750px;
+	--breakpoint-bp8_5: 850px;
+	--breakpoint-bp9_5: 950px;
+	--breakpoint-bp10_5: 1050px;
+	--breakpoint-bp11_5: 1150px;
+	--breakpoint-bp12_5: 1250px;
+	--breakpoint-bp13_5: 1350px;
+	--breakpoint-bp14_5: 1450px;
+	--breakpoint-bp15_5: 1550px;
+	--breakpoint-bp16_5: 1650px;
+	--breakpoint-bp17_5: 1750px;
+	--breakpoint-bp18_5: 1850px;
+	--breakpoint-bp19_5: 1950px;
+}
+
+.Fill-blue-outline {
+	--text-color: var(--color-blue-500);
+	--border-color: var(--color-blue-500);
+	--text-hover-color: var(--color-blue-600);
+	--border-hover-color: var(--color-blue-600);
+}
+
+.Fill-blue-light {
+	--bg-color: var(--color-blue-900);
+	--text-color: var(--color-gray-200);
+	--border-color: var(--color-blue-500);
+	--bg-hover-color: var(--color-blue-800);
+}
+
+.Fill-blue {
+	--bg-color: var(--color-blue-500);
+	--text-color: var(--color-gray-800);
+	--bg-hover-color: var(--color-blue-600);
+}
+
+button {
+	padding: 0.5rem 1rem;
+	border-width: 2px;
+}

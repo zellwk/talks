@@ -1,0 +1,97 @@
+.reveal-viewport {
+	line-height: 1.5;
+}
+
+[class*='Marvin'],
+button {
+	font-family: 'Marvin Visions Variable';
+	font-weight: 120;
+	font-variation-settings: 'opsz' 80; /* optical size. Between 80 to 100 */
+}
+
+[class*='Jetbrains'] {
+	font-family: 'Jetbrains Mono';
+}
+
+[class*='SAJackson'] {
+	font-family: 'SA Jackson';
+}
+
+[class*='SASuperhero'] {
+	font-family: 'SA Superhero';
+}
+
+.Marvin-2 {
+	font-size: 4rem;
+	font-weight: 120;
+}
+
+.Marvin-light {
+	font-size: 2rem;
+	line-height: 1.2;
+	font-weight: 90;
+	font-variation-settings: 'opsz' 80;
+	color: #a8aab2;
+}
+
+.title {
+	@apply text-8xl;
+	font-family: 'Marvin Visions Variable';
+	font-weight: 170; /* weight 20 -170 */
+	font-variation-settings: 'opsz' 85; /* optical size. Between 80 to 100 */
+	color: var(--color-cYellow-500);
+}
+
+h1 {
+	font-size: 14rem;
+	font-family: 'Marvin Visions Variable';
+	font-weight: 170; /* weight 20 -170 */
+	line-height: 1;
+	font-variation-settings: 'opsz' 90; /* optical size. Between 80 to 100 */
+	color: var(--color-cYellow-500);
+}
+
+h2 {
+	font-size: 4rem;
+	font-family: 'Marvin Visions Variable';
+	font-weight: 170; /* weight 20 -170 */
+	line-height: 1;
+	font-variation-settings: 'opsz' 90; /* optical size. Between 80 to 100 */
+	color: var(--color-cYellow-500);
+}
+
+ul,
+ol {
+	list-style-position: inside;
+}
+
+blockquote {
+	display: flex;
+	flex-direction: column;
+	font-size: 3.5rem;
+	font-family: 'SA Jackson';
+}
+
+cite {
+	display: block;
+	font-family: 'Marvin Visions Variable';
+	font-style: normal;
+	font-weight: 80;
+	font-size: 0.75em;
+	align-self: end;
+	font-variation-settings: 'opsz' 80; /* optical size. Between 80 to 100 */
+}
+
+.Tailwind {
+	color: var(--color-cLightBlue-500);
+}
+
+.CSS {
+	color: hotpink;
+}
+
+th,
+.th {
+	font-family: 'Marvin Visions Variable';
+	color: var(--color-cYellow-500);
+}
